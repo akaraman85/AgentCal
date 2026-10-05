@@ -162,9 +162,13 @@ The trial passes only if the persisted records answer all five, and a later mode
 
 **Would invalidate the doctrine if:** Any of those answers needs a fifth object, a separate calendar store, or a story written after the fact. A missing occurred_at, a missing arose_from, or an uncertainty that exists only inside prose, is a failure. A fluent explanation that is not in the record is a failure. Principle 6 already forbids that explanation. This trial is that rule, applied to a date.
 
-**Strain:** v0.3 names the links a derived ledger would read. State and Decision carry occurred_at. Continuation carries created_at, triggered_at, resolved_at, and cancelled_at. Records carry arose_from and resolved_by. Open uncertainty is supposed to be explicit. That is a hypothesis that four objects are enough for the walk “what happened → what remained unresolved → what it caused → how and when it was resolved.” Project Zero’s own dates are the same day, so this project cannot be the evidence that the hypothesis holds. The fifth answer is where this trial meets F2: if doing nothing is the harm, a ledger that only says “wait” fails here too. F2 is still unsolved.
+**Strain:** v0.3 names the links a derived ledger would read. The walk those links support was tried once, on an artificial project, in `trials/F6-cedar-trail-records.md`. The result is `trials/F6-cedar-trail.md`. Project Zero’s own dates are still the same day, so they were not the evidence.
 
-Open. The links are recorded as obligations. They have not reconstructed why today requires action.
+The walk can be done. On the morning of day 10 it listed what happened, what was still unresolved, what those open items caused later, and what had already been resolved. Why X was one field on the live Continuation. Why today could be assembled from quotes. One reading did. One reading refused the join and returned only the scheduled time.
+
+The fifth answer failed both readings. State already said that an unconfirmed shelter is released at 17:00 and will not be rebooked. Nothing said that “the user does nothing” is that condition, and nothing pointed from the open uncertainty to the sentence. Both readings wrote GAP rather than invent the join. That is where this trial meets F2. A wake at 09:00 is not a statement of what waiting costs. F2 is still unsolved.
+
+Open. Not passed. The links are not a pass. No consequence pointer was added. One fixture does not close the question.
 
 ---
 
@@ -182,12 +186,12 @@ T0–T4 still describe unlike ideas with four objects. That was the confirmatory
 | False completion | All of them | The user confirms Completed | Unchanged |
 | Missed signal | Observation | Cheap, then judge | Effort chosen before reliability is known (F5) |
 | State over time | All of them | Overwrite carefully | Versions are now required. They have not been lived for six months |
-| Why today | Calendar, any dated wake | Continuation is a reason | Reconstruct why today from the record, not from a later story (F6) |
+| Why today | Calendar, any dated wake | Continuation is a reason | Cedar Trail: the history walk held; “what happens if I do nothing” did not (F6) |
 | Domain-specific machinery | None yet | No fifth object | Joint authority is a live candidate (F1). Time is not yet a reason to add one (F6) |
 
 What did not appear: a need for twenty schemas, a router, or a swarm of agents.
 
-**Finding:** The framework is not software-shaped. The confirmatory pass was too easy to count as dependability. The open failures are joint authority, dangerous waiting, conjunctive acts, contradiction without a present user, observation that is cheap and not reliable, and a date the record cannot yet explain.
+**Finding:** The framework is not software-shaped. The confirmatory pass was too easy to count as dependability. The open failures are joint authority, dangerous waiting, conjunctive acts, contradiction without a present user, observation that is cheap and not reliable, and the cost of doing nothing. Cedar Trail is evidence for the last of those. It is one fixture, and it is not a close.
 
 Naming F1–F6 does not solve them. v0.3 is not a freeze.
 
@@ -199,7 +203,8 @@ We are not adding a fifth object.
 We are not designing model routing.
 We are not designing UI beyond the already-named obligations (Commit; Why are you doing this?; current intent, state, next question, and next continuation; authority named before Act). A calendar, if one is later shown, may only render the derived ledger in `MODEL.md`. We are not building it.
 We are not encoding these records as software.
-We are not treating the new temporal links as a pass of F6.
+We are not treating Cedar Trail as a pass of F6.
+We are not adding a consequence pointer on the strength of one fixture. The reading named where the fifth answer failed. It did not install a field.
 We are not rewriting the repo description until the intent question is deliberately resolved.
 
 Those wait on the questions in `PROJECT-ZERO.md`.
