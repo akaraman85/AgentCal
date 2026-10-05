@@ -2,4 +2,4 @@
 
 A calendar for tracking what agents are doing.
 
-Doctrine is being frozen before software. Start at [`doctrine/CONSTITUTION.md`](doctrine/CONSTITUTION.md).
+Doctrine is being evaluated before software. Start at [`doctrine/CONSTITUTION.md`](doctrine/CONSTITUTION.md).
