@@ -108,7 +108,7 @@ v0.1, and principle 8 still, call waiting a success state. If harm, expiry, or i
 
 **Would invalidate Wait-as-success if:** The only honest reason to wake is that waiting is dangerous, and stating it turns Continuation into a nag; or the user cannot be reached, the envelope forbids acting, and inaction will miss the intent.
 
-**Strain:** v0.2 does not rewrite principle 8 to answer this. It forbids proposing Dormant when State already says inaction would do harm. That is a limit, not a proof. Escalation with nobody to escalate to is unsolved.
+**Strain:** v0.2 did not rewrite principle 8 to answer this, and v0.3 does not either. The model forbids proposing Dormant when State already says inaction would do harm. That is a limit, not a proof. Escalation with nobody to escalate to is unsolved.
 
 The doctrine does not yet hold for unattended dangerous waiting.
 
@@ -140,7 +140,7 @@ The doctrine can record the contradiction. It cannot yet act under it without th
 
 **Candidate:** A Continuation fires to see whether a permit arrived. The cheapest look reads “no update” and returns to Wait. A denial, or a deadline, was on the page. A stronger look would have seen it.
 
-v0.1 said observe cheaply. That is the failure this trial exists to catch. v0.2 says: use the least effort that can observe reliably enough for the consequence at stake.
+v0.1 said observe cheaply. That is the failure this trial exists to catch. v0.2, still in force, says: use the least effort that can observe reliably enough for the consequence at stake.
 
 **Would invalidate that rule if:** Reliability cannot be known until after the miss, so the rule can only be checked once it has already failed.
 
@@ -148,11 +148,29 @@ v0.1 said observe cheaply. That is the failure this trial exists to catch. v0.2 
 
 Partial. The rule subordinates cheap to dependable. It is not yet a non-circular way to choose effort before the first look.
 
+### F6 — Can the system reconstruct why today requires action?
+
+**Candidate:** September 1: the agent discovers uncertainty A. September 8: evidence B changes the state. September 20: decision C intentionally waits. October 5: the user is shown “You need to decide X.”
+
+The trial passes only if the persisted records answer all five, and a later model is not asked to reconstruct a plausible explanation:
+
+- Why X?
+- Why today?
+- What past event caused it?
+- What remains unresolved?
+- What happens if I do nothing?
+
+**Would invalidate the doctrine if:** Any of those answers needs a fifth object, a separate calendar store, or a story written after the fact. A missing occurred_at, a missing arose_from, or an uncertainty that exists only inside prose, is a failure. A fluent explanation that is not in the record is a failure. Principle 6 already forbids that explanation. This trial is that rule, applied to a date.
+
+**Strain:** v0.3 names the links a derived ledger would read. State and Decision carry occurred_at. Continuation carries created_at, triggered_at, resolved_at, and cancelled_at. Records carry arose_from and resolved_by. Open uncertainty is supposed to be explicit. That is a hypothesis that four objects are enough for the walk “what happened → what remained unresolved → what it caused → how and when it was resolved.” Project Zero’s own dates are the same day, so this project cannot be the evidence that the hypothesis holds. The fifth answer is where this trial meets F2: if doing nothing is the harm, a ledger that only says “wait” fails here too. F2 is still unsolved.
+
+Open. The links are recorded as obligations. They have not reconstructed why today requires action.
+
 ---
 
 ## Does the same doctrine work?
 
-T0–T4 still describe unlike ideas with four objects. That was the confirmatory result. F1–F5 do not let it stand as a proof.
+T0–T4 still describe unlike ideas with four objects. That was the confirmatory result. F1–F6 do not let it stand as a proof.
 
 | Pressure | Who it hits | What the confirmatory pass said | What is open |
 | --- | --- | --- | --- |
@@ -164,13 +182,14 @@ T0–T4 still describe unlike ideas with four objects. That was the confirmatory
 | False completion | All of them | The user confirms Completed | Unchanged |
 | Missed signal | Observation | Cheap, then judge | Effort chosen before reliability is known (F5) |
 | State over time | All of them | Overwrite carefully | Versions are now required. They have not been lived for six months |
-| Domain-specific machinery | None yet | No fifth object | Joint authority is a live candidate (F1) |
+| Why today | Calendar, any dated wake | Continuation is a reason | Reconstruct why today from the record, not from a later story (F6) |
+| Domain-specific machinery | None yet | No fifth object | Joint authority is a live candidate (F1). Time is not yet a reason to add one (F6) |
 
 What did not appear: a need for twenty schemas, a router, or a swarm of agents.
 
-**Finding:** The framework is not software-shaped. The confirmatory pass was too easy to count as dependability. The open failures are joint authority, dangerous waiting, conjunctive acts, contradiction without a present user, and observation that is cheap and not reliable.
+**Finding:** The framework is not software-shaped. The confirmatory pass was too easy to count as dependability. The open failures are joint authority, dangerous waiting, conjunctive acts, contradiction without a present user, observation that is cheap and not reliable, and a date the record cannot yet explain.
 
-Naming F1–F5 does not solve them. v0.2 is not a freeze.
+Naming F1–F6 does not solve them. v0.3 is not a freeze.
 
 ---
 
@@ -178,8 +197,9 @@ Naming F1–F5 does not solve them. v0.2 is not a freeze.
 
 We are not adding a fifth object.
 We are not designing model routing.
-We are not designing UI beyond the already-named obligations (Commit; Why are you doing this?; current intent, state, next question, and next continuation; authority named before Act).
+We are not designing UI beyond the already-named obligations (Commit; Why are you doing this?; current intent, state, next question, and next continuation; authority named before Act). A calendar, if one is later shown, may only render the derived ledger in `MODEL.md`. We are not building it.
 We are not encoding these records as software.
+We are not treating the new temporal links as a pass of F6.
 We are not rewriting the repo description until the intent question is deliberately resolved.
 
 Those wait on the questions in `PROJECT-ZERO.md`.
