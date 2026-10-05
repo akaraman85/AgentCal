@@ -57,9 +57,37 @@ The v0.2 envelope said “may execute reversibly: edits to doctrine in this repo
 
 ## State
 
-State is versioned. v1 is the picture at the v0.1 writing. v2 is the picture at the v0.2 writing. v3 is current. Earlier pictures are not discarded.
+State is versioned. v1 is the picture at the v0.1 writing. v2 is the picture at the v0.2 writing. v3 is the picture at the v0.3 writing. v4 is current. Earlier pictures are not discarded.
 
-### Current picture — v3
+### Current picture — v4
+
+**Version:** 4
+**As of:** 2026-10-05, when the Cedar Trail reading was written
+**Occurred at:** 2026-10-05. The task and the reading are the same day.
+**Arose from:** State v3. D7 is how this picture replaced that one.
+
+**What we currently know:**
+- v3 remains the picture of the doctrine at that writing: status `defining`, no software, reversible band none unless explicitly authorized, D5's provenance corrected, temporal links on the four objects. Those sentences are not rewritten below.
+- F6 was run once, on an artificial project, after v3. The fixture is `trials/F6-cedar-trail-records.md`. The result is `trials/F6-cedar-trail.md`. The fixture was frozen before the readings. The result does not pass F6.
+- On that fixture the history walk could be done. Why X was stated. Why today could be assembled from quotes. “What happens if I do nothing?” was not answered. The cost of leaving the shelter unconfirmed was a sentence in State. No field equated doing nothing with that sentence, and the open uncertainty did not point at it.
+- No field was added. No fifth object. No calendar. No software. U1 and U2 were not answered. v0.3 was not frozen. The authorization for this revision is spent.
+
+**Open uncertainties:**
+
+1. **U1 — Which intent is the project?** Unchanged. Arose from: State v1, uncertainty 1. Resolved by: none.
+2. **U2 — Should this draft be committed?** Unchanged. This trial is not a Commit. Arose from: State v1, uncertainty 2. Resolved by: none.
+3. **U3 — Do the four objects hold, including the temporal links?** The Cedar Trail walk held. The fifth F6 answer did not. One fixture does not resolve the question, and it does not add a pointer. Arose from: State v3, uncertainty 3, and D7. Resolved by: none.
+4. **U4 — Is v0.3 the next evaluation baseline?** Only the user can say. Running F6 is not acceptance and not a freeze. Arose from: D6. Resolved by: none.
+
+**Last meaningful change:**
+2026-10-05 — F6 was run on Cedar Trail and left open. The fifth answer failed. No concept was added.
+
+**How this picture replaced the last:**
+D7. Not a silent overwrite of v3.
+
+### Prior picture — v3
+
+**Superseded by v4.** The sentences below are the picture at the v0.3 writing. They are not rewritten.
 
 **Version:** 3
 **As of:** 2026-10-05, when this picture was written
@@ -137,7 +165,33 @@ User evaluation, recorded as D5. Not a silent overwrite of v1.
 
 ## Continuation
 
-### Current — response to v0.3
+### Current — response to the Cedar Trail reading
+
+**Why the agent should wake:**
+A justified reason to observe the response to the Cedar Trail reading: accept the gap as named, reject the reading, or decide whether a pointer belongs on an existing uncertainty or continuation. Not a reason to add that pointer while waiting. Not a reason to write software. Not a reason to treat one fixture as a close of F6.
+
+**When / under what condition:**
+When a response to the reading arrives. Not on a timer. Not because F6 is still interesting.
+
+**What question needs reconsideration:**
+1. Is the gap the one the reading names: the cost of non-confirmation was stored, and “what happens if I do nothing?” was not answered?
+2. If it is, does a pointer get added inside the four objects, or does F6 stay open without one?
+3. Is the intent the original AgentCal idea, the broader dependable system, or the calendar as a surface of that system?
+4. Do you Commit this as a project, leave it in Define, or stop?
+5. Any further doctrine edit needs an explicit authorization. The authorization for D7 does not supply one.
+
+**Created at:** 2026-10-05
+**Triggered at:** none
+**Resolved at:** none
+**Cancelled at:** none
+**Arose from:** U3 and D7
+**Resolved by:** none
+
+While status is `defining` and no external Act is permitted, waiting does not spend money or expire the idea. The risk worth naming is treating the reading as a pass, or treating a named gap as permission to add a field before the response. That risk does not justify another wake by itself.
+
+Until those questions are answered, the correct cycle end is **Wait**.
+
+### Closed — response to v0.3
 
 **Why the agent should wake:**
 A justified reason to observe the response to v0.3: accept it, amend it, or reject it, or answer the intent and Commit questions. Not a prediction that more doctrine work will be found. Not a reason to invent the next feature. Not a reason to start implementation because the doctrine feels close.
@@ -153,17 +207,15 @@ When a response to v0.3 arrives. Not on a timer. Not because the file exists. No
 5. Any further doctrine edit needs an explicit authorization. The standing reversible band does not supply one.
 
 **Created at:** 2026-10-05
-**Triggered at:** none
-**Resolved at:** none
+**Triggered at:** 2026-10-05. A response to v0.3 arrived as the task that asked for a real F6 run.
+**Resolved at:** 2026-10-05. The wake was taken up by the Cedar Trail reading.
 **Cancelled at:** none
 **Arose from:** U1, U2, U4, and F6
-**Resolved by:** none
+**Resolved by:** D7. Closing the wake does not answer U1, U2, or U4. U3 is sharpened and stays open.
 
 While status is `defining` and no external Act is permitted, waiting does not spend money or expire the idea. The risk worth naming is treating silence as a freeze, or treating v0.3 as closed because it was written, or treating “close to enough doctrine” as permission to code. That risk does not justify another wake by itself.
 
-**What happens if nothing further arrives:** Wait. This Continuation does not fire. U1, U2, U3, and U4 stay open.
-
-Until those questions are answered, the correct cycle end is **Wait**.
+**What happens if nothing further arrives:** Written while this continuation was live. A response did arrive, and the timestamps above record the wake. U1, U2, and U4 stayed open. U3 was sharpened, not closed.
 
 ### Closed — response to v0.2
 
@@ -262,7 +314,30 @@ D1–D4 are the v0.1 record. They are not rewritten to add provenance they did n
 
 ---
 
+### D7 — Run F6 on one artificial project; do not add a pointer
+
+- **What was decided:** Write one artificial committed project, Cedar Trail, using only the v0.3 fields. Freeze those records. Ask later readings to answer F6's five questions from the records alone. Record the result. Do not add a field, a fifth object, or a calendar store. Do not amend the Constitution or the model. Do not resolve U1. Do not Commit Project Zero. Do not write software. Do not treat the result as a pass. This revision is authorized only by the task that asked for the trial. After it is recorded, Wait.
+- **Why:** #1, #2, and #6. The temporal links had been named and had not been lived across days. Adding a consequence pointer first would have grown the doctrine toward a gap the trial had not yet shown. The trial showed it. Installing the pointer in the same revision would skip the decision the result is now waiting on. A future reader should not have to treat this narrative as a rule. The operating text stays v0.3. The evidence stays in `trials/`.
+- **Occurred at:** 2026-10-05
+- **Evidence:**
+  - The task that authorized this revision, 2026-10-05. It says the v0.3 authority, provenance, and temporal corrections held. It asks for one artificial project of about ten to fourteen days, and for a day-10 reading of what to do, why, why today, what caused it, and what happens if nothing is done. It says not to add broad concepts first, and not to build the calendar. **Source:** that task. This agent did not observe a separate message that would let it reassign the sentences to a different author. The task is the authorization to write the trial. Authorization is not a Commit and not a freeze.
+  - The fixture `doctrine/trials/F6-cedar-trail-records.md`, written and frozen before the readings.
+  - Two later readings of that fixture, 2026-10-05, recorded in `doctrine/trials/F6-cedar-trail.md`. Both returned GAP for “what happens if I do nothing?” Both could quote the release sentence and would not use it as that answer. **Model:** `unknown`.
+- **Confidence:** High that those two readings returned GAP, and that the release sentence is in v5 of the fixture. Low that one fixture is the last word on F6. Low that a pointer should be added before a response to the reading.
+- **Model / effort used:** High-effort trial, 2026-10-05. **Model:** `unknown`. A session's belief about its own model is not in the repository, so it is not recorded. The two readings are separate passes over the frozen fixture. Their models are `unknown` for the same reason. No external actions. The park page was stipulated and was not fetched. This is not verification. Verification is acceptance or rejection of the reading by the user.
+- **Arose from:** F6, as left open by D6, and the task named above.
+- **Resolved by:** none
+- **Disagreement:** A reading in which the fixture's release sentence already answers the fifth question was available. The two readings did not take it. This decision does not collapse that into a pass, and it does not collapse the gap into a new field.
+
+---
+
 ## Why are you doing this?
+
+Because F6 had been named and had not been run on more than one date. This revision runs it on one artificial project and records that the fifth answer failed. It does not add the pointer that would have made that answer easy. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. It does not leave a standing permission to edit again. After this record, Wait.
+
+### Prior answer — v0.3
+
+Kept. It describes the revision that produced v0.3, not this one.
 
 Because v0.2 granted this system reversible doctrine edits it had not been given, and because D5 attributed an assistant evaluation to the user and named a model the persisted record does not support. This revision withdraws the grant, corrects that provenance, and writes down the temporal links F6 will have to break or sustain. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. It does not leave a standing permission to edit again. After this record, Wait.
 
