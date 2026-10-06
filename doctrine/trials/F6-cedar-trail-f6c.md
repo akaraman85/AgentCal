@@ -10,6 +10,8 @@
 
 `F6-cedar-trail.md` and `F6-cedar-trail-records.md` were not edited. No file named F6b exists in the repository. None was added.
 
+**Correction:** The second and third sentences are false. `trials/F6-cedar-trail-f6b.md` was already in the repository, in commit `32e3e7d`. This trial did not edit that file and did not add it. The sentences are left in place. This note marks them. It does not change the score.
+
 This file is audit. It is not a rule.
 
 ---
