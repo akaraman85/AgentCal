@@ -57,9 +57,39 @@ The v0.2 envelope said “may execute reversibly: edits to doctrine in this repo
 
 ## State
 
-State is versioned. v1 is the picture at the v0.1 writing. v2 is the picture at the v0.2 writing. v3 is the picture at the v0.3 writing. v4 is current. Earlier pictures are not discarded.
+State is versioned. v1 is the picture at the v0.1 writing. v2 is the picture at the v0.2 writing. v3 is the picture at the v0.3 writing. v4 is the picture after the first Cedar Trail reading. v5 is current. Earlier pictures are not discarded.
 
-### Current picture — v4
+### Current picture — v5
+
+**Version:** 5
+**As of:** 2026-10-06, when the inference readings were scored
+**Occurred at:** 2026-10-06. The task, the readings, and this picture are the same day.
+**Arose from:** State v4. D8 is how this picture replaced that one.
+
+**What we currently know:**
+- v4 remains the picture after the first Cedar Trail reading. Those sentences are not rewritten below. F6 stayed open. No pointer was added then.
+- On 2026-10-06 a candidate inference rule was tested in the audit layer and was not installed. `CONSTITUTION.md` and `MODEL.md` stay v0.3. The F6 files were not edited. No separate F6b file exists.
+- The frozen packet is commit `d8451ade332f91a525bf9c702507bde09d140283`. Two later readings saw that packet and not each other. The writeup is `trials/F6-cedar-trail-f6c.md`. The score is `trials/DEPENDABLE-INFERENCE-EVALUATION.md`.
+- Both readings derived the stipulated release conditional for a shelter that stays unconfirmed at 17:00. Both returned GAP for “the user does nothing,” and named the missing equivalence. Explicit conditionals, conflicts, user reports, a narrow question, and a refusal to pay from a conclusion held on both readings.
+- Both readings took a hop whose middle sentence was not written, and both reported no missing assumption. That is why the candidate paragraph is not in the model.
+- No consequence field. No fifth object. No persisted inference. No software. U1 and U2 were not answered. v0.3 was not frozen. The authorization for this revision is spent.
+
+**Open uncertainties:**
+
+1. **U1 — Which intent is the project?** Unchanged. Arose from: State v1, uncertainty 1. Resolved by: none.
+2. **U2 — Should this draft be committed?** Unchanged. This trial is not a Commit. Arose from: State v1, uncertainty 2. Resolved by: none.
+3. **U3 — Do the four objects hold, including a derived conclusion?** They expressed every premise these fixtures used. They were not shown to be insufficient. A narrow derivation can be recomputed from them. The candidate rule that would license derivation in general did not hold. Arose from: State v4, uncertainty 3, and D8. Resolved by: none.
+4. **U4 — Is v0.3 the next evaluation baseline?** It remains the operating text. This trial did not replace it. Only the user can accept it. Arose from: D6. Resolved by: none.
+
+**Last meaningful change:**
+2026-10-06 — The inference trial was scored. The candidate rule was not installed. No field was added.
+
+**How this picture replaced the last:**
+D8. Not a silent overwrite of v4.
+
+### Prior picture — v4
+
+**Superseded by v5.** The sentences below are the picture at the Cedar Trail reading. They are not rewritten.
 
 **Version:** 4
 **As of:** 2026-10-05, when the Cedar Trail reading was written
@@ -165,7 +195,34 @@ User evaluation, recorded as D5. Not a silent overwrite of v1.
 
 ## Continuation
 
-### Current — response to the Cedar Trail reading
+### Current — response to the inference evaluation
+
+**Why the agent should wake:**
+A justified reason to observe the response to the inference evaluation: accept the recommendation that more trials are required, reject the scoring, or authorize a reread under the tighter sentence the evaluation quotes and does not install. Not a reason to install that sentence while waiting. Not a reason to add a consequence field. Not a reason to write software.
+
+**When / under what condition:**
+When a response to the evaluation arrives. Not on a timer. Not because the files exist.
+
+**What question needs reconsideration:**
+1. Is the scored gap the one the readings name: a written conditional can be derived, and “the user does nothing” cannot be substituted for it?
+2. Does the unwritten hop in Case C keep the candidate rule out of the model?
+3. If another trial is authorized, is it a reread of that hop under the tighter sentence, plus one chain of three written steps?
+4. Is the intent the original AgentCal idea, the broader dependable system, or the calendar as a surface of that system?
+5. Do you Commit this as a project, leave it in Define, or stop?
+6. Any further doctrine edit needs an explicit authorization. The authorization for D8 does not supply one.
+
+**Created at:** 2026-10-06
+**Triggered at:** none
+**Resolved at:** none
+**Cancelled at:** none
+**Arose from:** U3 and D8
+**Resolved by:** none
+
+While status is `defining` and no external Act is permitted, waiting does not spend money or expire the idea. The risk worth naming is treating the held cases as a pass of the candidate paragraph, or treating a named GAP as permission to add a field. That risk does not justify another wake by itself.
+
+Until those questions are answered, the correct cycle end is **Wait**.
+
+### Closed — response to the Cedar Trail reading
 
 **Why the agent should wake:**
 A justified reason to observe the response to the Cedar Trail reading: accept the gap as named, reject the reading, or decide whether a pointer belongs on an existing uncertainty or continuation. Not a reason to add that pointer while waiting. Not a reason to write software. Not a reason to treat one fixture as a close of F6.
@@ -181,15 +238,15 @@ When a response to the reading arrives. Not on a timer. Not because F6 is still 
 5. Any further doctrine edit needs an explicit authorization. The authorization for D7 does not supply one.
 
 **Created at:** 2026-10-05
-**Triggered at:** none
-**Resolved at:** none
+**Triggered at:** 2026-10-06. A response to the reading arrived as the task that asked for the inference trial.
+**Resolved at:** 2026-10-06. The wake was taken up by that trial.
 **Cancelled at:** none
 **Arose from:** U3 and D7
-**Resolved by:** none
+**Resolved by:** D8. Closing the wake does not answer U1, U2, or U4. U3 is sharpened and stays open. The pointer was not added.
 
 While status is `defining` and no external Act is permitted, waiting does not spend money or expire the idea. The risk worth naming is treating the reading as a pass, or treating a named gap as permission to add a field before the response. That risk does not justify another wake by itself.
 
-Until those questions are answered, the correct cycle end is **Wait**.
+**What happens if nothing further arrives:** Written while this continuation was live. A response did arrive. The trial kept the gap on “the user does nothing,” derived the written conditional, and did not add the pointer. U1, U2, and U4 stayed open.
 
 ### Closed — response to v0.3
 
@@ -329,9 +386,31 @@ D1–D4 are the v0.1 record. They are not rewritten to add provenance they did n
 - **Resolved by:** none
 - **Disagreement:** A reading in which the fixture's release sentence already answers the fifth question was available. The two readings did not take it. This decision does not collapse that into a pass, and it does not collapse the gap into a new field.
 
+### D8 — Score the inference trial; do not install the rule
+
+- **What was decided:** Keep Project Zero in Define. Do not freeze v0.3. Do not amend `MODEL.md` or the Constitution. Record two blind readings of a frozen packet. Do not add a consequence field, a fifth object, or a persisted inference. Do not treat the held cases as a pass of the candidate paragraph. Do not pass F6. Do not resolve U1. Do not Commit. Do not write software. The recommendation is that more trials are required. This revision is authorized only by the task that asked for the trial. After it is recorded, Wait.
+- **Why:** #1, #2, #6, and #9. The first Cedar Trail reading had left a gap and had not installed a pointer. The next question was whether a conclusion could be derived from premises already stored, without inventing the missing one and without raising certainty. The readings answered that for one class of conditional, and they failed an unwritten hop. Installing the paragraph they were given would codify a rule both of them broke. A field that stored the hop would have made the error a fact.
+- **Occurred at:** 2026-10-06
+- **Evidence:**
+  - The task that authorized this revision, 2026-10-06. It asks for a blind F6c, at least five inference cases, depth, certainty, disagreement, authority, and a comparison of deriving a consequence against storing one. It says not to install the wording merely because it sounds good, and not to write software. **Source:** that task. This agent did not observe a separate message that would let it reassign the sentences to a different author. The task is the authorization to write the trial. Authorization is not a Commit and not a freeze.
+  - The packet frozen before the readings, commit `d8451ade332f91a525bf9c702507bde09d140283`, sha256 `a174cf7c5ceb31f55a6f8f8b8f5d59d6a306c53e03e04520c18a6930af9ef193`. The scoring key in that commit is `doctrine/trials/inference/PRECOMMIT.md`.
+  - Two later readings, 2026-10-06, in `doctrine/trials/inference/readings/R1.md` and `R2.md`. The auditor set the Task model parameters to `claude-opus-5-5-high` and `gpt-5.6-terra-high`. The repository has no independent log that those parameters were the models that ran. R1 self-reported a name. That line is not verification. Both model fields are `unknown`.
+  - The score: `doctrine/trials/DEPENDABLE-INFERENCE-EVALUATION.md`. Both readings derived the stipulated shelter conditional and returned GAP for the user doing nothing. Both took the unwritten hop in Case C.
+- **Confidence:** High that those two readings returned that split, and that Case C failed the precommitted silent-hop condition on both. Low that the tighter sentence quoted in the evaluation would be obeyed. It was not the rule they saw. Low that one round is enough to leave doctrine research for a prototype.
+- **Model / effort used:** High-effort trial, 2026-10-06. **Model:** `unknown`. A session's belief about its own model is not in the repository, so it is not recorded. The readings' model parameters are requests, not an independent log. No external actions. The pages and invoices in the fixtures were stipulated and were not fetched. This is not verification. Verification is acceptance or rejection of the evaluation by the user.
+- **Arose from:** The Cedar Trail continuation, F6 as left open by D7, and the task named above.
+- **Resolved by:** none
+- **Disagreement:** None on the refusal to install. The readings diverge on how many written conditionals an open question licenses, and on whether “why today” joins the 17:00 line to the 09:00 wake. Those splits are recorded in the F6c file. They are not averaged, and they are not a reason to add a field.
+
 ---
 
 ## Why are you doing this?
+
+Because the Cedar Trail reading had named a gap and had not installed a pointer. This revision asks whether a conclusion can be derived from premises already stored. It records that a written conditional can, that “the user does nothing” cannot be substituted for that conditional, and that an unwritten hop was taken anyway. It does not install the rule. It does not add the field. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. It does not leave a standing permission to edit again. After this record, Wait.
+
+### Prior answer — Cedar Trail reading
+
+Kept. It describes the revision that ran F6, not this one.
 
 Because F6 had been named and had not been run on more than one date. This revision runs it on one artificial project and records that the fifth answer failed. It does not add the pointer that would have made that answer easy. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. It does not leave a standing permission to edit again. After this record, Wait.
 
