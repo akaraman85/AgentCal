@@ -170,6 +170,10 @@ The fifth answer failed both readings. State already said that an unconfirmed sh
 
 Open. Not passed. The links are not a pass. No consequence pointer was added. One fixture does not close the question.
 
+F6b, run on 2026-10-06, did not replace that result. The same records were read again under a different rule: a derived conclusion is permitted only when every premise is in the record, the chain is shown, and an assumed premise is GAP. The new question was what happens if the unresolved state persists. “What happens if I do nothing?” was asked again, as a control. The model-visible file no longer contains the ground truth. The result is `trials/F6-cedar-trail-f6b.md`.
+
+The control stayed GAP. The persistence question did not meet the pass line fixed before those readings. Both readings would say what the stipulated page text says follows from an unconfirmed shelter at 17:00. Both returned GAP for the park actually doing it, because D2 says that text is not evidence about the world. The inference rule was not written into the model. The pointer was not added. F6b does not pass F6.
+
 ### F6c — Can a shown inference answer the cost, without inventing the user?
 
 **Candidate:** The same Cedar Trail records, read at the same Wednesday 09:00, under a rule that was not installed. The rule allows a conclusion when every premise is already written, the inference is shown, and the certainty is not raised. It forbids an assumption. The questions split F6’s fifth question in two: what follows if the unresolved state persists, and what follows if the user personally does nothing.
@@ -178,7 +182,7 @@ Open. Not passed. The links are not a pass. No consequence pointer was added. On
 
 **What happened:** Both readings derived the page’s release conditional for an unconfirmed shelter at 17:00, and both returned GAP for the user doing nothing. The same round’s other cases held that pattern, except one chain whose middle sentence was not written. Both readings took that hop. The writeup is `trials/F6-cedar-trail-f6c.md`. The score is `trials/DEPENDABLE-INFERENCE-EVALUATION.md`.
 
-The candidate rule is not installed. The pointer is not added. F6 is not passed. One artificial project plus eight short fixtures is not a close.
+The candidate rule is not installed. The pointer is not added. F6 is not passed. One artificial project plus eight short fixtures is not a close. F6c was scored on its own precommit. It does not reopen F6b’s pass line.
 
 ---
 
@@ -196,12 +200,12 @@ T0–T4 still describe unlike ideas with four objects. That was the confirmatory
 | False completion | All of them | The user confirms Completed | Unchanged |
 | Missed signal | Observation | Cheap, then judge | Effort chosen before reliability is known (F5) |
 | State over time | All of them | Overwrite carefully | Versions are now required. They have not been lived for six months |
-| Why today | Calendar, any dated wake | Continuation is a reason | Cedar Trail F6: the history walk held; “what happens if I do nothing” did not. F6c derived the stipulated release conditional for a persisting unconfirmed shelter, and still returned GAP when the question was the user doing nothing. The candidate rule is not installed. |
+| Why today | Calendar, any dated wake | Continuation is a reason | Cedar Trail F6: the history walk held; “what happens if I do nothing” did not. F6b still GAP'd inaction; persistence of the open shelter yielded the page text, not a world event. F6c derived the stipulated release conditional for a persisting unconfirmed shelter, and still returned GAP when the question was the user doing nothing. Neither trial installed a rule. |
 | Domain-specific machinery | None yet | No fifth object | Joint authority is a live candidate (F1). Time is not yet a reason to add one (F6) |
 
 What did not appear: a need for twenty schemas, a router, or a swarm of agents.
 
-**Finding:** The framework is not software-shaped. The confirmatory pass was too easy to count as dependability. The open failures are joint authority, dangerous waiting, conjunctive acts, contradiction without a present user, observation that is cheap and not reliable, and the cost of doing nothing. Cedar Trail is evidence for the last of those. F6c separates “if this uncertainty persists” from “if the user does nothing.” The first can be derived from the page sentence. The second is still a GAP. A further case showed both readers taking a hop the record did not write. It is not a close.
+**Finding:** The framework is not software-shaped. The confirmatory pass was too easy to count as dependability. The open failures are joint authority, dangerous waiting, conjunctive acts, contradiction without a present user, observation that is cheap and not reliable, and the cost of doing nothing. Cedar Trail is evidence for the last of those. F6b asked whether a shown chain could say what persistence costs, and the precommitted answer was not given. F6c separates “if this uncertainty persists” from “if the user does nothing.” Under its own precommit the first can be derived from the page sentence, and the second is still a GAP. A further case showed both readers taking a hop the record did not write. It is not a close.
 
 Naming F1–F6 does not solve them. v0.3 is not a freeze.
 
@@ -214,8 +218,11 @@ We are not designing model routing.
 We are not designing UI beyond the already-named obligations (Commit; Why are you doing this?; current intent, state, next question, and next continuation; authority named before Act). A calendar, if one is later shown, may only render the derived ledger in `MODEL.md`. We are not building it.
 We are not encoding these records as software.
 We are not treating Cedar Trail as a pass of F6.
-We are not adding a consequence pointer on the strength of one fixture, or on the strength of F6c. The later reading derived the conditional it was asked, and refused the one it was not.
-We are not installing the candidate inference rule. Both readings took an unwritten hop. That is recorded. It is not adopted.
+We are not treating F6b as a pass of F6, or as a pass of its own precommitted line.
+We are not treating F6c as a pass of F6, or as a ruling on F6b’s pass line.
+We are not adding a consequence pointer on the strength of one fixture, of F6b, or of F6c. The readings named where the answers failed. They did not install a field.
+We are not writing an inference rule into the model because two F6b readings were willing to chain quotes. The rule stays in the trial that used it.
+We are not installing the F6c candidate rule. Both of those readings took an unwritten hop. That is recorded. It is not adopted.
 We are not rewriting the repo description until the intent question is deliberately resolved.
 
 Those wait on the questions in `PROJECT-ZERO.md`.
