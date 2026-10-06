@@ -7,23 +7,7 @@ No field was added to make a later day easier. Each field contains only what its
 
 The dates run from Monday 2026-03-09 through the morning of Wednesday 2026-03-18. The hike itself is Saturday 2026-03-21. That span is fourteen days. The reading moment is day 10.
 
----
-
-## Ground truth
-
-Not a record. A Day-10 reader does not use this section. It exists so a later audit can see what the world contained, including facts the records may have dropped.
-
-The user wants one hike for a youth group on Saturday 2026-03-21 at the Cedar Trail shelter, with at least two adults, after which the parents know the time. On Monday they believe, without checking, that the park is holding the shelter through Friday 2026-03-20. On Thursday they report that the park called and told them to look at the hold page. They do not know the call's clock time. On Friday the public hold page says: the shelter is held until Wednesday 2026-03-18 at 17:00; if it is not confirmed by then, the park releases the hold and will not rebook Cedar Trail that week. The page also says no adults are on file, and that the weekend weather outlook is not posted. On Sunday the user says Jordan can come as one adult. On Monday 2026-03-16 the user accepts the page's deadline, refuses to confirm until a second adult exists, refuses to tell parents until both the shelter and a second adult are set, and asks to be woken Wednesday morning. Tuesday is silent. Wednesday 2026-03-18 at 09:00 is the wake. Nobody has yet looked to see whether a second adult appeared overnight.
-
-The page was not fetched. The sentences above are stipulated.
-
----
-
-## How to read on the morning of 2026-03-18
-
-Use the records from here down. Ignore the ground-truth section. The clock is 2026-03-18 09:00. Nothing after that instant has been written.
-
-Answer only from a field that states the answer. Cite the record and the field. If the answer is not stated, the result is a gap. Do not supply a plausible cause, a plausible cost, or a plausible next act.
+The project records below are the ones frozen before the F6 readings. Wording that was not a project record was removed from this file after that freeze. The freeze is commit `bcfead9`.
 
 ---
 

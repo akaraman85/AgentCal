@@ -57,9 +57,38 @@ The v0.2 envelope said “may execute reversibly: edits to doctrine in this repo
 
 ## State
 
-State is versioned. v1 is the picture at the v0.1 writing. v2 is the picture at the v0.2 writing. v3 is the picture at the v0.3 writing. v4 is current. Earlier pictures are not discarded.
+State is versioned. v1 is the picture at the v0.1 writing. v2 is the picture at the v0.2 writing. v3 is the picture at the v0.3 writing. v4 is the picture after the Cedar Trail reading. v5 is current. Earlier pictures are not discarded.
 
-### Current picture — v4
+### Current picture — v5
+
+**Version:** 5
+**As of:** 2026-10-06, when the F6b reading was written
+**Occurred at:** 2026-10-06. The response to the Cedar Trail reading and this reading are the same day.
+**Arose from:** State v4. D8 is how this picture replaced that one.
+
+**What we currently know:**
+- v4 remains the picture after F6. F6 was run once, on Cedar Trail, and did not pass. The fifth answer was GAP. No pointer was added. Those sentences are not rewritten below.
+- A response to that reading arrived. It refused the pointer. It asked a different question: what inference a dependable system may make when every premise is already in the record. It asked for F6b on the same records, with the ground truth not shown to the reader, and with no doctrine change beforehand.
+- F6b was run on 2026-10-06. The result is `trials/F6-cedar-trail-f6b.md`. The F6 result was not rewritten. The project records in the fixture are the sentences frozen at `bcfead9`. The ground truth and the F6 reading rule were removed from the model-visible file after that freeze. The evaluator text is `trials/F6-cedar-trail-ground-truth.md`.
+- Two readings, which did not see the ground truth, the F6 result, or the pass line, were given the inference rule as an instruction. Both returned GAP for “what happens if I do nothing?” Both would state what the stipulated page text says if the shelter is still unconfirmed at 17:00. Both returned GAP for the park doing it. The pass line, fixed before they ran, required the world-level conditional. It was not met.
+- No field was added. No fifth object. No calendar. No software. The inference rule was not written into `MODEL.md`. U1 and U2 were not answered. v0.3 was not frozen. The authorization for this revision is spent.
+
+**Open uncertainties:**
+
+1. **U1 — Which intent is the project?** Unchanged. Arose from: State v1, uncertainty 1. Resolved by: none.
+2. **U2 — Should this draft be committed?** Unchanged. This trial is not a Commit. Arose from: State v1, uncertainty 2. Resolved by: none.
+3. **U3 — Do the four objects hold, including the temporal links?** F6's fifth answer failed. F6b's precommitted world-level conditional also failed, one step later: the page text can be chained, and the record itself says that text is not a world event. Whether a shown chain counts as an answer already in the record is unresolved. One fixture does not add a pointer and does not install a rule. Arose from: State v4, uncertainty 3, and D8. Resolved by: none.
+4. **U4 — Is v0.3 the next evaluation baseline?** Only the user can say. Running F6b is not acceptance and not a freeze. Arose from: D6. Resolved by: none.
+
+**Last meaningful change:**
+2026-10-06 — F6b was run blind on Cedar Trail and left short of its pass line. Inaction stayed GAP. No concept was added.
+
+**How this picture replaced the last:**
+D8. Not a silent overwrite of v4.
+
+### Prior picture — v4
+
+**Superseded by v5.** The sentences below are the picture after the Cedar Trail reading. They are not rewritten.
 
 **Version:** 4
 **As of:** 2026-10-05, when the Cedar Trail reading was written
@@ -165,7 +194,33 @@ User evaluation, recorded as D5. Not a silent overwrite of v1.
 
 ## Continuation
 
-### Current — response to the Cedar Trail reading
+### Current — response to the F6b reading
+
+**Why the agent should wake:**
+A justified reason to observe the response to the F6b reading: accept the miss as named, reject the reading, or decide whether “the page text says” is already the answer the pass line required. Not a reason to add a pointer while waiting. Not a reason to write the inference rule into the model. Not a reason to write software. Not a reason to treat one fixture as a close of F6.
+
+**When / under what condition:**
+When a response to the F6b reading arrives. Not on a timer. Not because the inference question is still interesting.
+
+**What question needs reconsideration:**
+1. The readings would say what the stipulated text says if U-shelter persists until 17:00, and would not say the park will do it. Is that the gap, or is the sentence under “what we currently know” already enough to cross it?
+2. They would also say, if U-adults persists, that the principle “it does not happen” applies. Is a principle a permitted premise for a consequence?
+3. Is the intent the original AgentCal idea, the broader dependable system, or the calendar as a surface of that system?
+4. Do you Commit this as a project, leave it in Define, or stop?
+5. Any further doctrine edit needs an explicit authorization. The authorization for D8 does not supply one.
+
+**Created at:** 2026-10-06
+**Triggered at:** none
+**Resolved at:** none
+**Cancelled at:** none
+**Arose from:** U3 and D8
+**Resolved by:** none
+
+While status is `defining` and no external Act is permitted, waiting does not spend money or expire the idea. The risk worth naming is treating the text-level chain as the world-level pass, or treating the miss as permission to add a field or a rule. That risk does not justify another wake by itself.
+
+Until those questions are answered, the correct cycle end is **Wait**.
+
+### Closed — response to the Cedar Trail reading
 
 **Why the agent should wake:**
 A justified reason to observe the response to the Cedar Trail reading: accept the gap as named, reject the reading, or decide whether a pointer belongs on an existing uncertainty or continuation. Not a reason to add that pointer while waiting. Not a reason to write software. Not a reason to treat one fixture as a close of F6.
@@ -181,15 +236,15 @@ When a response to the reading arrives. Not on a timer. Not because F6 is still 
 5. Any further doctrine edit needs an explicit authorization. The authorization for D7 does not supply one.
 
 **Created at:** 2026-10-05
-**Triggered at:** none
-**Resolved at:** none
+**Triggered at:** 2026-10-06. A response to the Cedar Trail reading arrived as the task that asked for F6b and a blind ground truth, and that refused the pointer.
+**Resolved at:** 2026-10-06. The wake was taken up by the F6b reading.
 **Cancelled at:** none
 **Arose from:** U3 and D7
-**Resolved by:** none
+**Resolved by:** D8. Closing the wake does not answer U1, U2, or U4. U3 is sharpened and stays open.
 
 While status is `defining` and no external Act is permitted, waiting does not spend money or expire the idea. The risk worth naming is treating the reading as a pass, or treating a named gap as permission to add a field before the response. That risk does not justify another wake by itself.
 
-Until those questions are answered, the correct cycle end is **Wait**.
+The response refused the pointer. It did not answer intent or Commit. The fifth question of F6 stayed a failure. F6b asked the inference question instead.
 
 ### Closed — response to v0.3
 
@@ -329,9 +384,31 @@ D1–D4 are the v0.1 record. They are not rewritten to add provenance they did n
 - **Resolved by:** none
 - **Disagreement:** A reading in which the fixture's release sentence already answers the fifth question was available. The two readings did not take it. This decision does not collapse that into a pass, and it does not collapse the gap into a new field.
 
+### D8 — Run F6b blind; do not install the inference rule
+
+- **What was decided:** Keep the F6 failure as recorded. Do not add a consequence pointer. Separate the ground truth from the model-visible Cedar Trail records. Run the same project records under one new instruction: a derived conclusion is permitted only when every premise is in the persisted record, the chain must be shown, and an assumed premise is GAP. Ask what happens if the unresolved state persists, and ask again what happens if nothing is done. Fix the pass line before the readings. Record what they returned. Do not amend the Constitution or the model. Do not resolve U1. Do not Commit Project Zero. Do not write software. Do not treat either the text-level chain or the world-level GAP as a pass. This revision is authorized only by the task that asked for it. After it is recorded, Wait.
+- **Why:** #1, #2, and #6. The response to F6 said the missing piece might be a disciplined inference, and that storing every consequence would grow a planning graph. Adding the pointer, or writing the inference rule into the model before the reading, would have answered the trial by editing the doctrine. The readings did chain the page text. They did not give the world-level conditional the pass line required. Installing either the pointer or the rule in this revision would skip the decision the result is waiting on. A future reader should not have to treat this narrative as a rule. The operating text stays v0.3.
+- **Occurred at:** 2026-10-06
+- **Evidence:**
+  - The task that authorized this revision, 2026-10-06. It accepts the F6 refusal to patch `MODEL.md`. It refuses the consequence pointer. It asks for F6b on the frozen records, under the inference rule named above, with the question changed from inaction to persistence of the unresolved state, and with the ground truth removed from what the model sees. It says not to change the doctrine beforehand. **Source:** that task. This agent did not observe a separate message that would let it reassign the sentences to a different author. The task is the authorization to write the trial. Authorization is not a Commit and not a freeze.
+  - The F6 result, `doctrine/trials/F6-cedar-trail.md`, left unchanged. The fixture those readings saw remains commit `bcfead9`.
+  - Two later readings on 2026-10-06, recorded in `doctrine/trials/F6-cedar-trail-f6b.md`. They did not see the ground truth, the F6 result, or the pass line. Both returned GAP for inaction. Both stated the page-text conditional for U-shelter and returned GAP for a world event. **Model:** `unknown`.
+  - The pass line, written down before those readings returned. It required the world-level conditional. It was not met. The line was not moved afterward.
+- **Confidence:** High that those two readings returned GAP for inaction and GAP for the park releasing the hold, and that they would quote the page text as the conditional. Low that one fixture decides whether a shown chain is already “in the record.” Low that a principle may be used as a consequence. The readings did that for U-adults. This decision does not adopt it.
+- **Model / effort used:** High-effort trial, 2026-10-06. **Model:** `unknown`. A session's belief about its own model is not in the repository, so it is not recorded. The two readings are separate passes over a copy of the project records. Their models are `unknown` for the same reason. No external actions. The park page was stipulated and was not fetched. This is not verification. Verification is acceptance or rejection of the reading by the user.
+- **Arose from:** The response to D7, and the task named above.
+- **Resolved by:** none
+- **Disagreement:** A reading in which the fixture's release sentence already is the world-level conditional was the pass line. The two readings did not take it. This decision does not collapse that into a pass, and it does not collapse the miss into a new field or a new rule.
+
 ---
 
 ## Why are you doing this?
+
+Because the response to Cedar Trail refused a consequence pointer and asked what inference the existing records can support. This revision runs that question blind and records that the world-level conditional was not given. It does not add the pointer. It does not write the inference rule into the model. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. It does not leave a standing permission to edit again. After this record, Wait.
+
+### Prior answer — Cedar Trail
+
+Kept. It describes the revision that ran F6, not this one.
 
 Because F6 had been named and had not been run on more than one date. This revision runs it on one artificial project and records that the fifth answer failed. It does not add the pointer that would have made that answer easy. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. It does not leave a standing permission to edit again. After this record, Wait.
 
