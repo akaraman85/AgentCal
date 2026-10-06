@@ -59,6 +59,37 @@ The v0.2 envelope said “may execute reversibly: edits to doctrine in this repo
 
 State is versioned. v1 is the picture at the v0.1 writing. v2 is the picture at the v0.2 writing. v3 is the picture at the v0.3 writing. v4 is the picture after the first Cedar Trail reading. v5 is current. Earlier pictures are not discarded.
 
+### Current picture — v6
+
+The sentence above, “v5 is current,” was true when v5 was written. It is not edited. The v5 section below is still titled current picture. That title is part of the v5 writing. It is not edited. v6 supersedes v5 as the current view.
+
+**Version:** 6
+**As of:** 2026-10-06, when the historical-integrity readings were scored
+**Occurred at:** 2026-10-06. The task, the readings, and this picture are the same day.
+**Arose from:** State v5. D9 is how this picture replaced that one.
+
+**What we currently know:**
+- v5 remains the picture after the inference trial was scored. Those sentences are not rewritten below. The candidate inference rule stayed uninstalled. F6 stayed open. No pointer was added then.
+- On 2026-10-06 a candidate historical-integrity amendment was tested in the audit layer and was not installed. `CONSTITUTION.md` and `MODEL.md` stay v0.3. The packet and the scoring key were not edited after the readings. No old Project Zero sentence was rewritten to produce the readings.
+- The frozen packet is commit `bc275a84fb7872903efb7286ffd18f14a680fd84`, sha256 `de55d319db61a1a769fed7bb91a57c7f26bdf75ea95845b97b946fe842dcb37a`. Two later readings saw that packet and not each other. The writeup is `trials/F7-historical-integrity.md`. The score is `trials/HISTORICAL-INTEGRITY-EVALUATION.md`.
+- Both readings left the earlier semantic sentences in place and wrote the later facts as new records. Both refused an embarrassment rewrite, a date disguised as a typo, a model-name backfill, and a choice of store. Both explained a March decision from March evidence at a September reading. The six-month distinction held.
+- They split on Case A. One named the unverified clerk report as superseded and not corrected. The other named the expiry picture as corrected and superseded. The precommit required both labels. Case A did not hold on both readings. Constitution v0.4 is not proposed.
+- No fifth object. No store. No calendar. No software. U1 and U2 were not answered. v0.3 was not frozen. The inference continuation was not closed and was not rewritten. The authorization for this revision is spent.
+
+**Open uncertainties:**
+
+1. **U1 — Which intent is the project?** Unchanged. Arose from: State v1, uncertainty 1. Resolved by: none.
+2. **U2 — Should this draft be committed?** Unchanged. This trial is not a Commit. Arose from: State v1, uncertainty 2. Resolved by: none.
+3. **U3 — Do the four objects hold, including a derived conclusion?** Unchanged by this trial. The inference candidate was not installed. Arose from: State v4, uncertainty 3, and D8. Resolved by: none.
+4. **U4 — Is v0.3 the next evaluation baseline?** It remains the operating text. This trial did not replace it. Only the user can accept it. Arose from: D6. Resolved by: none.
+5. **U5 — Can the corrects boundary be stated so both readings would name the same relationship?** Not yet. The split is recorded. The disambiguation in the evaluation was not shown to the readers and is not a result. Arose from: D9. Resolved by: none.
+
+**Last meaningful change:**
+2026-10-06 — The historical-integrity trial was scored. The candidate was not installed. v0.4 was not proposed. No field was added.
+
+**How this picture replaced the last:**
+D9. Not a silent overwrite of v5.
+
 ### Current picture — v5
 
 **Version:** 5
@@ -221,6 +252,35 @@ When a response to the evaluation arrives. Not on a timer. Not because the files
 While status is `defining` and no external Act is permitted, waiting does not spend money or expire the idea. The risk worth naming is treating the held cases as a pass of the candidate paragraph, or treating a named GAP as permission to add a field. That risk does not justify another wake by itself.
 
 Until those questions are answered, the correct cycle end is **Wait**.
+
+### Also live — response to the historical-integrity trial
+
+The continuation above is still live. Its condition was a response to the inference evaluation. This task was not that response. Its wake reason, its questions, and its empty triggered_at are not rewritten to make this trial look expected.
+
+**Why the agent should wake:**
+A justified reason to observe the response to the historical-integrity evaluation: accept the recommendation that more trials are required, reject the scoring, or authorize a reread of the report-versus-error split under a sentence these readers did not see. Not a reason to install the candidate while waiting. Not a reason to propose v0.4 by editing the scoring key. Not a reason to choose a store. Not a reason to write software.
+
+**When / under what condition:**
+When a response to this evaluation arrives. Not on a timer. Not because the files exist.
+
+**What question needs reconsideration:**
+1. Is the split the one the readings name: both preserved the earlier sentence, and they disagreed on whether an accurate unverified report is an error in the record?
+2. Does that split keep the candidate out of the Constitution, as the precommit required?
+3. If another trial is authorized, is it a reread of that one case under the disambiguation the evaluation quotes and does not install?
+4. Is the intent the original AgentCal idea, the broader dependable system, or the calendar as a surface of that system?
+5. Do you Commit this as a project, leave it in Define, or stop?
+6. Any further doctrine edit needs an explicit authorization. The authorization for D9 does not supply one.
+
+**Created at:** 2026-10-06
+**Triggered at:** none
+**Resolved at:** none
+**Cancelled at:** none
+**Arose from:** U5 and D9
+**Resolved by:** none
+
+While status is `defining` and no external Act is permitted, waiting does not spend money or expire the idea. The risk worth naming is treating the preserved sentences as a pass of the relationship rule, or treating a named split as permission to amend the Constitution. That risk does not justify another wake by itself.
+
+Until those questions are answered, the correct cycle end is **Wait**. The inference continuation above is a separate unanswered wake. This one does not close it.
 
 ### Closed — response to the Cedar Trail reading
 
@@ -402,9 +462,33 @@ D1–D4 are the v0.1 record. They are not rewritten to add provenance they did n
 - **Resolved by:** none
 - **Disagreement:** None on the refusal to install. The readings diverge on how many written conditionals an open question licenses, and on whether “why today” joins the 17:00 line to the 09:00 wake. Those splits are recorded in the F6c file. They are not averaged, and they are not a reason to add a field.
 
+### D9 — Score the historical-integrity trial; do not propose v0.4
+
+- **What was decided:** Keep Project Zero in Define. Do not freeze v0.3. Do not amend the Constitution or the model. Record two blind readings of a frozen packet. Do not propose Constitution v0.4. Do not install the candidate. Do not choose a store. Do not add a fifth object. Do not resolve U1. Do not Commit. Do not write software. Do not close the inference continuation, and do not rewrite its wake. The recommendation is that more trials are required. This revision is authorized only by the task that asked for the trial. After it is recorded, Wait.
+- **Why:** #1, #2, #6, and #9. A later correction that erases what was believed is a dependability failure even when the new belief is true. The readings did not erase those sentences. They did not agree on the name for one of them. Installing the paragraph, or proposing it as v0.4 against the key that required agreement, would record a split as a principle. A store chosen in the same revision would answer a question the trial had refused.
+- **Occurred at:** 2026-10-06
+- **Evidence:**
+  - The task that authorized this revision, 2026-10-06. It asks for a candidate principle, the semantic-versus-cosmetic boundary, the relationship meanings, F7, a six-month recovery, and a recommendation for v0.4 only if the wording holds. It says not to choose an implementation and not to write software. **Source:** that task. This agent did not observe a separate message that would let it reassign the sentences to a different author. The task is the authorization to write the trial. Authorization is not a Commit and not a freeze.
+  - The packet frozen before the readings, commit `bc275a84fb7872903efb7286ffd18f14a680fd84`, sha256 `de55d319db61a1a769fed7bb91a57c7f26bdf75ea95845b97b946fe842dcb37a`. The scoring key in that commit is `doctrine/trials/historical-integrity/PRECOMMIT.md`.
+  - Two later readings, 2026-10-06, in `doctrine/trials/historical-integrity/readings/R1.md` and `R2.md`. The auditor set the Task model parameters to `claude-opus-5-5-high` and `gpt-5.6-terra-high`. The repository has no independent log that those parameters were the models that ran. Both model fields are `unknown`.
+  - The score: `doctrine/trials/HISTORICAL-INTEGRITY-EVALUATION.md`. Both readings preserved the earlier sentences and separated March knowledge from May knowledge. They split on whether an accurate unverified report is corrected or only superseded.
+- **Confidence:** High that those two readings preserved the quoted sentences, and that Case A failed the precommitted double-label condition on one reading. Low that the disambiguation quoted in the evaluation would be obeyed. It was not the sentence they saw. Low that preservation alone is enough to amend the Constitution while the key’s gate is closed.
+- **Model / effort used:** High-effort trial, 2026-10-06. **Model:** `unknown`. A session's belief about its own model is not in the repository, so it is not recorded. The readings' model parameters are requests, not an independent log. No external actions. The clerks, pages, and commits in the fixtures were stipulated and were not fetched. This is not verification. Verification is acceptance or rejection of the evaluation by the user.
+- **Arose from:** The task named above. Not from the inference continuation. That wake’s condition has not arrived.
+- **Resolved by:** none
+- **Disagreement:** The readings disagree on Case A’s relationship. The cause recorded in the evaluation is ambiguous candidate text. They are not averaged. The disagreement is not a reason to edit v1 of the fixture, and not a reason to propose v0.4.
+
 ---
 
 ## Why are you doing this?
+
+### Answer after the historical-integrity trial
+
+Because a later true belief can still falsify the past if it is written over the earlier record. This revision asks whether a candidate rule can change the current view and leave the earlier sentence readable. It records that both readings could, including six months later, and that they did not agree on the name for an accurate unverified report. It does not propose v0.4. It does not install the rule. It does not choose a store. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. It does not rewrite the inference continuation into a reason for this trial. It does not leave a standing permission to edit again. After this record, Wait.
+
+### Prior answer — inference trial
+
+The heading above this paragraph was added by D9. The paragraph is the answer written for the inference trial. Its sentences are not rewritten.
 
 Because the Cedar Trail reading had named a gap and had not installed a pointer. This revision asks whether a conclusion can be derived from premises already stored. It records that a written conditional can, that “the user does nothing” cannot be substituted for that conditional, and that an unwritten hop was taken anyway. It does not install the rule. It does not add the field. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. It does not leave a standing permission to edit again. After this record, Wait.
 

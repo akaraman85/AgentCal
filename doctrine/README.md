@@ -14,6 +14,8 @@ Two kinds of text live here.
 5. [trials/](trials/) — fixtures and the results of running them
 6. [trials/F6-cedar-trail-f6c.md](trials/F6-cedar-trail-f6c.md) — a later reading under a candidate inference rule. Not installed.
 7. [trials/DEPENDABLE-INFERENCE-EVALUATION.md](trials/DEPENDABLE-INFERENCE-EVALUATION.md) — the score. More trials are required. The rule is not adopted.
+8. [trials/F7-historical-integrity.md](trials/F7-historical-integrity.md) — a later reading under a candidate historical-integrity rule. Not installed.
+9. [trials/HISTORICAL-INTEGRITY-EVALUATION.md](trials/HISTORICAL-INTEGRITY-EVALUATION.md) — the score. More trials are required. v0.4 is not proposed.
 
 Read the operating doctrine first. Do not start from architecture.
 
