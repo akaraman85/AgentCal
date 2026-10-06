@@ -16,7 +16,7 @@ Two kinds of text live here.
 7. [trials/DEPENDABLE-INFERENCE-EVALUATION.md](trials/DEPENDABLE-INFERENCE-EVALUATION.md) — the score. More trials are required. The rule is not adopted.
 8. [trials/F7-historical-integrity.md](trials/F7-historical-integrity.md) — preservation held. The relationship rule did not hold on both readings. The original adoption gate failed. That file is not a pass, and it is not rewritten.
 9. [trials/HISTORICAL-INTEGRITY-EVALUATION.md](trials/HISTORICAL-INTEGRITY-EVALUATION.md) — the score. It recommended that v0.4 not be proposed. That recommendation stands as the audit result of F7. D11 later adopted a narrower principle than the gate refused.
-10. [trials/F7b-historical-relationships.md](trials/F7b-historical-relationships.md) — opened. Taxonomy and presentation metadata. Not a retest of preservation. The relationship names are not installed. Readings have not been returned.
+10. [trials/F7b-historical-relationships.md](trials/F7b-historical-relationships.md) — taxonomy and presentation metadata. Not a retest of preservation. The score is [trials/F7B-EVALUATION.md](trials/F7B-EVALUATION.md). The determined lines held. The relationship names are not installed. The presentation rule is not installed.
 
 Read the operating doctrine first. Do not start from architecture.
 

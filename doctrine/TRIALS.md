@@ -202,6 +202,8 @@ The candidate is not installed. v0.4 is not proposed. The precommit made the spl
 
 **What has happened:** The packet and the scoring key are written. Readings have not been returned. The writeup, so far, is `trials/F7b-historical-relationships.md`. The names are not installed. D11 adopted the narrower principle only.
 
+The paragraph above was true when F7b was opened. It is not deleted. Readings were returned on 2026-10-06 and scored in `trials/F7B-EVALUATION.md`. The determined lines held. One extra label diverged. The names are still not installed. The presentation rule is not installed. F7’s gate is still a failure.
+
 ---
 
 ## Does the same doctrine work?
@@ -252,3 +254,5 @@ We are not choosing a store, a log, or a revision table for that principle. We a
 Those wait on the questions in `PROJECT-ZERO.md`.
 
 Addendum, 2026-10-06, D11. The two sentences above were true when F7 was scored. They are not deleted. D11 later adopted a narrower principle: the system can change its mind without changing its past. That adoption is Constitution v0.4. It is not a pass of F7’s original gate. The relationship names are still not installed. F7b is the trial of those names and of presentation metadata. No store is chosen. No software is written.
+
+Addendum, 2026-10-06, D12. F7b was scored. The determined lines held. The names were not installed. The heading rule was not installed. v0.4 was not edited. The sentence above that says the names are still not installed remains true.
