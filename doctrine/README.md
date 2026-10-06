@@ -12,6 +12,8 @@ Two kinds of text live here.
 3. [PROJECT-ZERO.md](PROJECT-ZERO.md) — this system, entered as a draft
 4. [TRIALS.md](TRIALS.md) — confirmatory pass, then trials meant to invalidate the doctrine
 5. [trials/](trials/) — fixtures and the results of running them
+6. [trials/F6-cedar-trail-f6c.md](trials/F6-cedar-trail-f6c.md) — a later reading under a candidate inference rule. Not installed.
+7. [trials/DEPENDABLE-INFERENCE-EVALUATION.md](trials/DEPENDABLE-INFERENCE-EVALUATION.md) — the score. More trials are required. The rule is not adopted.
 
 Read the operating doctrine first. Do not start from architecture.
 
