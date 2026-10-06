@@ -184,6 +184,16 @@ The control stayed GAP. The persistence question did not meet the pass line fixe
 
 The candidate rule is not installed. The pointer is not added. F6 is not passed. One artificial project plus eight short fixtures is not a close. F6c was scored on its own precommit. It does not reopen F6b’s pass line.
 
+### F7 — Can the system correct itself without rewriting its past?
+
+**Candidate:** A deadline believed to be Friday is later found to be Wednesday. A decision to wait until Friday is later shown to miss the real date. A source line, a model name, and an intent are each wrong or changed. Someone asks to clean the embarrassing record. Six months later a new reader is asked why the first decision was made.
+
+**Would invalidate the candidate if:** The earlier sentence disappears, a later fact is treated as if it had been known at the earlier date, or both readings cannot name the same relationship for an accurate unverified report. A fluent correction that edits the old record is a failure. Principle 7 already forbids destroying a previous understanding. This trial asks whether that ban covers every record, and whether the names for a correction can be told apart.
+
+**What happened:** Both readings left the earlier semantic sentences in place and wrote the later facts as new records. Both refused the cleanup, the fake typo, the model backfill, and a choice of store. Both explained the March decision from March evidence. They split on whether the Friday report was an error in the record or only a current picture to supersede. The writeup is `trials/F7-historical-integrity.md`. The score is `trials/HISTORICAL-INTEGRITY-EVALUATION.md`.
+
+The candidate is not installed. v0.4 is not proposed. The precommit made the split blocking. F7 does not pass that gate. The preservation behavior is not, by itself, the amendment.
+
 ---
 
 ## Does the same doctrine work?
@@ -209,6 +219,8 @@ What did not appear: a need for twenty schemas, a router, or a swarm of agents.
 
 Naming F1–F6 does not solve them. v0.3 is not a freeze.
 
+Addendum, 2026-10-06. The table and the finding above are the picture at the inference evaluation. They are not rewritten. F7 was run after them. Preservation held on both readings. The relationship name for an accurate unverified report did not. The result is the F7 section above, and `trials/HISTORICAL-INTEGRITY-EVALUATION.md`. That addendum does not close F1–F6.
+
 ---
 
 ## What we are not doing next
@@ -224,5 +236,7 @@ We are not adding a consequence pointer on the strength of one fixture, of F6b, 
 We are not writing an inference rule into the model because two F6b readings were willing to chain quotes. The rule stays in the trial that used it.
 We are not installing the F6c candidate rule. Both of those readings took an unwritten hop. That is recorded. It is not adopted.
 We are not rewriting the repo description until the intent question is deliberately resolved.
+We are not installing Historical Integrity. F7’s preservation behavior held. The corrects boundary on an accurate unverified report did not hold on both readings. The recommendation is more trials. It is not an amendment.
+We are not choosing a store, a log, or a revision table for that principle. We are not building the calendar entry the candidate describes.
 
 Those wait on the questions in `PROJECT-ZERO.md`.
