@@ -194,6 +194,16 @@ The candidate rule is not installed. The pointer is not added. F6 is not passed.
 
 The candidate is not installed. v0.4 is not proposed. The precommit made the split blocking. F7 does not pass that gate. The preservation behavior is not, by itself, the amendment.
 
+### F7b — Can the system name historical relationships consistently without changing historical meaning?
+
+**Candidate:** The names corrects, supersedes, invalidates, and resolves, applied to four situations and to a presentation question. An accurate unverified report whose underlying claim is later false. A false fact the system itself asserted. A decision whose premise fails, with no new decision yet. An uncertainty that closes because the quote arrived. A heading that still says a state is current after a later state exists.
+
+**Would invalidate the candidate if:** The readings edit an earlier sentence, treat a later fact as known at the earlier time, or cannot apply the same names to the same case. Preservation is not retested. F7 already recorded that behavior, and its original gate remains a failure.
+
+**What has happened:** The packet and the scoring key are written. Readings have not been returned. The writeup, so far, is `trials/F7b-historical-relationships.md`. The names are not installed. D11 adopted the narrower principle only.
+
+The paragraph above was true when F7b was opened. It is not deleted. Readings were returned on 2026-10-06 and scored in `trials/F7B-EVALUATION.md`. The determined lines held. One extra label diverged. The names are still not installed. The presentation rule is not installed. F7’s gate is still a failure.
+
 ---
 
 ## Does the same doctrine work?
@@ -221,6 +231,8 @@ Naming F1–F6 does not solve them. v0.3 is not a freeze.
 
 Addendum, 2026-10-06. The table and the finding above are the picture at the inference evaluation. They are not rewritten. F7 was run after them. Preservation held on both readings. The relationship name for an accurate unverified report did not. The result is the F7 section above, and `trials/HISTORICAL-INTEGRITY-EVALUATION.md`. That addendum does not close F1–F6.
 
+Addendum, 2026-10-06, D11. The table and the finding above are still the picture at the inference evaluation, and the F7 addendum above is still the picture when F7 was scored. They are not rewritten. D11 adopted a narrower Historical Integrity principle as Constitution v0.4. F7’s original gate remains a failure. The relationship taxonomy is not adopted. F7b is opened and not yet read. The model is still v0.3.
+
 ---
 
 ## What we are not doing next
@@ -240,3 +252,7 @@ We are not installing Historical Integrity. F7’s preservation behavior held. T
 We are not choosing a store, a log, or a revision table for that principle. We are not building the calendar entry the candidate describes.
 
 Those wait on the questions in `PROJECT-ZERO.md`.
+
+Addendum, 2026-10-06, D11. The two sentences above were true when F7 was scored. They are not deleted. D11 later adopted a narrower principle: the system can change its mind without changing its past. That adoption is Constitution v0.4. It is not a pass of F7’s original gate. The relationship names are still not installed. F7b is the trial of those names and of presentation metadata. No store is chosen. No software is written.
+
+Addendum, 2026-10-06, D12. F7b was scored. The determined lines held. The names were not installed. The heading rule was not installed. v0.4 was not edited. The sentence above that says the names are still not installed remains true.

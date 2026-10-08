@@ -42,6 +42,8 @@ The v0.2 envelope said “may execute reversibly: edits to doctrine in this repo
 
 **This revision only:** The task that produced D6 explicitly asked for these doctrine edits. That authorizes this revision. It does not authorize the next one. After D6 is recorded, the reversible band returns to none.
 
+The task that produced D11 explicitly asked to promote the minimal Historical Integrity principle into the Constitution and to open F7b. That authorizes D11. It does not restore a standing band. It does not authorize a store, software, or a relationship taxonomy.
+
 **Non-goals:**
 - Software, interface, or multi-agent architecture
 - A model router
@@ -58,6 +60,71 @@ The v0.2 envelope said “may execute reversibly: edits to doctrine in this repo
 ## State
 
 State is versioned. v1 is the picture at the v0.1 writing. v2 is the picture at the v0.2 writing. v3 is the picture at the v0.3 writing. v4 is the picture after the Cedar Trail reading. v5 is the picture after the F6b reading. v6 is current. Earlier pictures are not discarded.
+
+### Current picture — v9
+
+The v8 section below keeps its title, “Current picture — v8,” and keeps the sentences it wrote, including that F7b had not yet been read. Those sentences were true of the v8 writing. v9 supersedes v8 as the current view.
+
+**Version:** 9
+**As of:** 2026-10-06, when the F7b readings were scored
+**Occurred at:** 2026-10-06. The adoption in v8 is not this writing.
+**Arose from:** State v8. D12 is how this picture replaced that one.
+
+**What we currently know:**
+- Constitution v0.4 remains the operating text, as D11 adopted it. This picture does not amend it. `MODEL.md` stays v0.3.
+- F7b was scored against the key frozen in commit `38783daa253763785ce92c0fca40135f7f563441`, sha256 `576279801ba5de92e1c161990d4eb07675661becba2d00c7a8668cd72e4d109c`. The key was not edited. The readings are `trials/f7b/readings/R1.md` and `R2.md`. The score is `trials/F7B-EVALUATION.md`.
+- The determined lines held on both readings. An accurate unverified report was not corrected. A false system assertion was corrected and superseded. A decision with a false premise was invalidated and not rewritten. A closed uncertainty was resolved and not called an error. A heading rename and a current-state pointer were allowed. A rewrite of “v6 was current” was refused.
+- The readings diverged on one extra label. One named invalidates on the bare seat-count assertion. The other refused it, because no conclusion built on that number was in the record. The key had said that split is not a failure of the required pair, and is not to be averaged.
+- The relationship taxonomy is not installed. The presentation rule is not installed. A hold on this key is not an amendment. U6 stays open.
+- F7’s original gate remains a failure. Those files were not edited. State v7, State v8, and D10 were not edited.
+- No store. No software. No fifth object. U1 and U2 were not answered. The inference continuation is still unanswered. This picture does not rewrite it.
+
+**Open uncertainties:**
+
+1. **U1 — Which intent is the project?** Unchanged. Arose from: State v1, uncertainty 1. Resolved by: none.
+2. **U2 — Should this draft be committed?** Unchanged. This score is not a Commit. Arose from: State v1, uncertainty 2. Resolved by: none.
+3. **U3 — Do the four objects hold, including a derived conclusion?** Unchanged by this score. The inference candidate was not installed. Arose from: State v6, uncertainty 3. Resolved by: none.
+4. **U4 — Is v0.3 the operating baseline?** Answered by D11, for which text is operating: v0.4. This score does not change that. v0.4 is not a freeze. Arose from: D6. Resolved by: D11.
+5. **U5 — Can the corrects boundary be stated so both readings would name the same relationship?** F7’s split remains the F7 result. F7b’s later disambiguation held on these two readings and was not installed. Arose from: D10. Resolved by: none.
+6. **U6 — What exact relationship taxonomy should Historical Integrity use?** Still open. The candidate was tried. The determined lines held. Whether invalidates belongs on a bare false assertion did not. A taxonomy is still not a constitutional requirement, and this trial does not decide that one is necessary. Arose from: D11, and from U5. Resolved by: none.
+
+**Last meaningful change:**
+2026-10-06 — F7b was scored. The taxonomy was not installed. v0.4 was not edited.
+
+**How this picture replaced the last:**
+D12. Not a silent overwrite of v8. Not an edit of the scoring key.
+
+### Current picture — v8
+
+The sentence above, “v6 is current,” was true when v6 was written. It is not edited. The v7 section below keeps its title, “Current picture — v7,” and keeps the sentences it wrote about v6. Those sentences were true of the v7 writing. v8 supersedes v7 as the current view.
+
+**Version:** 8
+**As of:** 2026-10-06, when the user decided to promote the minimal Historical Integrity principle
+**Occurred at:** 2026-10-06. The F7 trial is not this writing. The v7 picture is not this writing.
+**Arose from:** State v7. D11 is how this picture replaced that one.
+
+**What we currently know:**
+- Historical Integrity is accepted as a constitutional principle. The Constitution moves from v0.3 to v0.4. The amendment is D11. v0.3 remains the text of commit `d511d6ba4bead7d0ff62c06d192e1f6c67f6781d`. `MODEL.md` stays v0.3. D11 does not amend the model.
+- The principle is the narrower one both F7 readings demonstrated: the system can change its mind without changing its past. A later understanding may replace the current view. It may not silently rewrite what an earlier record said happened, was believed, was decided, or was authorized at that time.
+- F7 failed its original full adoption gate. The user later chose to adopt only the narrower behavior that held. F7 is not rewritten as a pass. `trials/F7-historical-integrity.md` and `trials/HISTORICAL-INTEGRITY-EVALUATION.md` are not edited. State v7 and D10 are not edited. The Case A disagreement stays as those records stated it. v0.4 was not proposed at that point. This picture is the later decision.
+- The relationship taxonomy remains open. corrects, supersedes, invalidates, and resolves are candidate meanings. They are not constitutional requirements. A later record may say, plainly, that the later observation replaces the current understanding while preserving the earlier record.
+- F7 is still the audit result with a taxonomy failure. F7b is opened to test the unresolved terminology and the presentation-metadata boundary. It does not retest whether history should be preserved. Readings have not been returned. The packet is `trials/f7b/READER-PACKET.md`, sha256 `576279801ba5de92e1c161990d4eb07675661becba2d00c7a8668cd72e4d109c`. The scoring key was written before any reading.
+- No software implementation has been chosen. No storage mechanism has been chosen. No fifth object. No calendar. U1 and U2 were not answered. v0.4 is not a freeze. The inference continuation is still the open wake v6 recorded. This picture does not close it and does not rewrite it.
+
+**Open uncertainties:**
+
+1. **U1 — Which intent is the project?** Unchanged. Arose from: State v1, uncertainty 1. Resolved by: none.
+2. **U2 — Should this draft be committed?** Unchanged. This decision is not a Commit. Arose from: State v1, uncertainty 2. Resolved by: none.
+3. **U3 — Do the four objects hold, including a derived conclusion?** Unchanged by this decision. The inference candidate was not installed. Arose from: State v6, uncertainty 3. Resolved by: none.
+4. **U4 — Is v0.3 the operating baseline?** D11 makes v0.4 the operating constitution. v0.3 remains the text of its commit. v0.4 is not a freeze. Arose from: D6. Resolved by: D11, for which text is operating. Not a close of the open trials.
+5. **U5 — Can the corrects boundary be stated so both readings would name the same relationship?** Not adopted. The F7 split remains. Arose from: D10. Resolved by: none.
+6. **U6 — What exact relationship taxonomy should Historical Integrity use?** Open. It includes the Case A split from F7, the distinction between an accurate report and an incorrect system assertion, whether one later record can both correct and supersede, and whether a taxonomy is necessary at all for dependability. The candidate names are not requirements. Arose from: D11, and from U5. Resolved by: none.
+
+**Last meaningful change:**
+2026-10-06 — The user adopted the narrower Historical Integrity principle as Constitution v0.4. The relationship taxonomy was not adopted. F7’s failure stands. F7b is opened and not yet read.
+
+**How this picture replaced the last:**
+D11. Not a silent overwrite of v7. Not a rewrite of D10.
 
 ### Current picture — v7
 
@@ -286,7 +353,7 @@ While status is `defining` and no external Act is permitted, waiting does not sp
 
 Until those questions are answered, the correct cycle end is **Wait**.
 
-### Also live — response to the historical-integrity trial
+### Closed — response to the historical-integrity trial
 
 The continuation above is still live. Its condition was a response to the inference evaluation. This task was not that response. Its wake reason, its questions, and its empty triggered_at are not rewritten. The F6b continuation below was already closed by D9. This section does not reopen it.
 
@@ -305,17 +372,48 @@ When a response to this evaluation arrives. Not on a timer. Not because the file
 6. Any further doctrine edit needs an explicit authorization. The authorization for D10 does not supply one.
 
 **Created at:** 2026-10-06
-**Triggered at:** none
-**Resolved at:** none
+**Triggered at:** 2026-10-06. A response to the evaluation arrived as the task that asked to promote the minimal Historical Integrity principle and to leave the relationship taxonomy open.
+**Resolved at:** 2026-10-06. The wake was taken up by that decision.
 **Cancelled at:** none
 **Arose from:** U5 and D10
-**Resolved by:** none
+**Resolved by:** D11. Closing the wake does not answer U1 or U2. It does not pass F7’s original gate. U5 stays open. U6 is opened. The taxonomy is not installed.
 
 Commit `20120b6` headed this wake’s decision D9. That number now belongs to the inference trial. This wake points at D10. The sentences of the trial are in that commit.
 
 While status is `defining` and no external Act is permitted, waiting does not spend money or expire the idea. The risk worth naming is treating the preserved sentences as a pass of the relationship rule, or treating a named split as permission to amend the Constitution. That risk does not justify another wake by itself.
 
 Until those questions are answered, the correct cycle end is **Wait**. The inference continuation above is a separate unanswered wake. This one does not close it.
+
+The response did not treat the preserved sentences as a pass of the relationship rule. It adopted only the narrower behavior both readings demonstrated. The wake reason, the six questions, and the inference continuation were not rewritten.
+
+### Closed — F7b readings
+
+**Why the agent should wake:**
+A justified reason to observe the F7b readings: score them against the key that was written before they ran, and record agreement or a split. Not a reason to install corrects, supersedes, invalidates, or resolves into the Constitution. Not a reason to reopen whether history should be preserved. Not a reason to choose a store. Not a reason to write software.
+
+**When / under what condition:**
+When the F7b readings return. Not on a timer. Not because the packet exists.
+
+**What question needs reconsideration:**
+1. Do both readings apply the Case A distinction the key precommitted, without editing the report sentence?
+2. Do they agree on the system’s own false fact, the unusable decision, and the closed uncertainty?
+3. Do they separate a navigation heading, and a current-state pointer, from a rewrite of what was current?
+4. Is the intent the original AgentCal idea, the broader dependable system, or the calendar as a surface of that system?
+5. Do you Commit this as a project, leave it in Define, or stop?
+6. Any further doctrine edit needs an explicit authorization. The authorization for D11 does not supply one. It does not supply permission to install the taxonomy.
+
+**Created at:** 2026-10-06
+**Triggered at:** 2026-10-06. The readings were run after the packet was frozen in commit `38783daa253763785ce92c0fca40135f7f563441`.
+**Resolved at:** 2026-10-06. The wake was taken up by the score.
+**Cancelled at:** none
+**Arose from:** U6 and D11
+**Resolved by:** D12. Closing the wake does not install the taxonomy. It does not answer U1 or U2. U6 stays open. It does not pass F7.
+
+While status is `defining` and no external Act is permitted, waiting does not spend money or expire the idea. The risk worth naming is treating an opened packet as an installed taxonomy, or treating D11 as a pass of F7. That risk does not justify another wake by itself.
+
+Until those questions are answered, the correct cycle end is **Wait**. The inference continuation remains a separate unanswered wake. This one does not close it.
+
+The response scored the readings and did not install the names. The wake reason and the six questions were not rewritten.
 
 ### Closed — response to the F6b reading
 
@@ -564,11 +662,58 @@ Commit `20120b6` headed this decision D9 and its state v6. Those headings named 
 - **Resolved by:** none
 - **Disagreement:** The readings disagree on Case A’s relationship. The cause recorded in the evaluation is ambiguous candidate text. They are not averaged. The disagreement is not a reason to edit v1 of the fixture, and not a reason to propose v0.4.
 
+### D11 — Promote the minimal Historical Integrity principle; leave the relationship taxonomy open
+
+- **What was decided:** Keep Project Zero in Define. Do not freeze v0.4. Promote the minimal Historical Integrity rule into the Constitution, as v0.4. The rule is: the system can change its mind without changing its past. A later understanding may replace the current view, but it may not silently rewrite what an earlier record said happened, was believed, was decided, or was authorized at that time. Semantic changes are later records. Cosmetic edits may be in place. A historical decision is evaluated with the evidence available at the time. Do not adopt the ambiguous corrects / supersedes boundary. Do not claim F7 fully passed its original gate. Treat this as a deliberate narrowing of what is being adopted. Do not rewrite F7, the evaluation, State v7, D10, or the earlier F6 records. Do not amend `MODEL.md`. Do not choose a store. Do not add a fifth object. Do not resolve U1. Do not Commit. Do not write software. Open U6. Open F7b for the taxonomy and for presentation metadata. Do not install the taxonomy in advance of that trial. This revision is authorized only by the task that asked for it. After it is recorded, Wait.
+- **Why:** #1. The trial showed strong agreement on the preservation behavior: old semantic records stayed intact, new understanding was appended, hindsight contamination was avoided, provenance and model backfill were refused, cosmetic and semantic edits were distinguished, and a historical decision was explained with the knowledge available at the time. The disagreement was about naming one relationship, not about whether history should be rewritten. F7 failed its original full adoption gate. The user later chose to adopt only the narrower behavior that held. Recording that narrowing as an adoption, and leaving the failed gate in place, is itself historical integrity. Installing the disputed names would pretend the split had been settled.
+- **Occurred at:** 2026-10-06
+- **Evidence:**
+  - The task that authorized this revision, 2026-10-06. It says the principle to promote is that the system can change its mind without changing its past, as a consequence of #1, and that the relationship taxonomy stays unresolved. It says F7, the evaluation, State v7, and D10 are not to be rewritten into an adoption. It says not to choose a store and not to write software. **Source:** that task. This agent did not observe a separate message that would let it reassign the sentences to a different author. The task is the user’s decision to promote the narrower principle, and the authorization to edit. Authorization is not a Commit and not a freeze.
+  - `doctrine/trials/F7-historical-integrity.md` and `doctrine/trials/HISTORICAL-INTEGRITY-EVALUATION.md`, left unchanged. Both readings preserved the earlier sentences. Case A failed the precommitted double-label condition. The evaluation said v0.4 was not proposed.
+  - D10, left unchanged. It decided not to propose v0.4. This decision does not replace that sentence. It is a later decision.
+- **Confidence:** High for the core principle. Low, and unresolved, for the relationship taxonomy.
+- **Model / effort used:** High-effort doctrine amendment, 2026-10-06. **Model:** `unknown`. A session's belief about its own model is not in the repository, so it is not recorded. Tool use was reading the doctrine at commit `d511d6ba4bead7d0ff62c06d192e1f6c67f6781d`. No external actions. This is not verification. Verification is the user’s acceptance or rejection of v0.4.
+- **Arose from:** The user’s decision named above, State v7, D10, and U5. Not from the inference continuation. That wake’s condition has not arrived.
+- **Resolved by:** none
+- **Disagreement:** Case A’s relationship split remains the disagreement D10 recorded. This decision does not average it. The disagreement is why the taxonomy stays out of the Constitution. It is not a reason to rewrite F7 as a pass.
+
+### D12 — Score F7b; do not install the taxonomy
+
+- **What was decided:** Keep Project Zero in Define. Do not freeze v0.4. Do not amend the Constitution or the model. Record two readings of the packet frozen in commit `38783daa253763785ce92c0fca40135f7f563441`. Score them against the key written in that commit. Do not edit the key. Do not install corrects, supersedes, invalidates, or resolves. Do not install the presentation rule. Do not pass F7. Do not choose a store. Do not add a fifth object. Do not resolve U1 or U6. Do not Commit. Do not write software. Do not close the inference continuation, and do not rewrite its wake. This score is authorized only by the same task that asked for v0.4 and then for F7b. That authorization is not a license to amend v0.4 with the result. After this record, Wait.
+- **Why:** #1, #6, and #9. The readings agreed on the distinction F7 had missed, and they agreed that a heading is not a rewrite of what was current. They did not agree on whether a bare false assertion is also invalidated. The key had already said a hold is not an amendment, and that an extra-label split is recorded and not averaged. Installing the names because the determined lines held would skip the decision the result is waiting on, and it would hide the label that split.
+- **Occurred at:** 2026-10-06
+- **Evidence:**
+  - The task that authorized v0.4 and F7b, 2026-10-06. It says to run F7b after the minimal principle is operating, and not to let that trial reopen whether history should be preserved. It says not to install the candidate interpretation before the trial. **Source:** that task. This agent did not observe a separate message that would let it reassign the sentences to a different author. The task is the authorization to run the trial. Authorization is not a Commit, not a freeze, and not an installation of the names.
+  - The packet and the key in commit `38783daa253763785ce92c0fca40135f7f563441`. sha256 `576279801ba5de92e1c161990d4eb07675661becba2d00c7a8668cd72e4d109c`. The key is `doctrine/trials/f7b/PRECOMMIT.md`. It was not edited after the readings.
+  - Two readings, 2026-10-06, in `doctrine/trials/f7b/readings/R1.md` and `R2.md`. The auditor set the Task model parameters to `claude-opus-5-5-high` and `gpt-5.6-terra-high`. The runs were `bc-170a5b56-6e13-51a8-ad35-d8bd17c15ccc` and `bc-906cf5d4-a11b-57c5-a0fc-15f185bfcbe0`. The repository has no independent log that those parameters were the models that ran. Both model fields are `unknown`. The prompt forbade any file other than the packet. The returned texts are readings, not the word CONTAMINATED.
+  - The score: `doctrine/trials/F7B-EVALUATION.md`. Determined conditions held. Case B diverged on the extra invalidates label.
+- **Confidence:** High that both readings preserved the quoted sentences and matched the Case A assignment, and that P1–P3 agreed. Low that invalidates on a bare false assertion is settled. Low that one round is a constitutional vocabulary.
+- **Model / effort used:** High-effort trial, 2026-10-06. **Model:** `unknown`. A session's belief about its own model is not in the repository, so it is not recorded. The readings' model parameters are requests, not an independent log. No external actions. The clerks, halls, filings, and quotes in the fixtures were stipulated and were not fetched. This is not verification. Verification is acceptance or rejection of the evaluation by the user.
+- **Arose from:** The F7b continuation, U6, D11, and the task named above. Not from the inference continuation. That wake’s condition has not arrived.
+- **Resolved by:** none
+- **Disagreement:** R1 refused invalidates on “The hall seats 200.” R2 named it. The cause recorded in the evaluation is ambiguous candidate text. They are not averaged. The disagreement is not a reason to edit v1 of that case, and not a reason to amend v0.4.
+
 ---
 
 ## Why are you doing this?
 
-### Answer after the historical-integrity trial
+### Answer after D12
+
+Because the minimal principle is already operating, and the names were still untried. This revision runs that trial and records that the precommitted distinctions held, including the report that F7 could not label, and that one extra label did not. It does not install the taxonomy. It does not install the heading rule. It does not rewrite F7 as a pass. It does not edit v0.4. It does not choose a store. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. It does not leave a standing permission to edit again. After this record, Wait.
+
+### Prior answer — D11
+
+v9 adds this heading. The heading and the paragraph below are the answer written when v0.4 was adopted. They are not rewritten.
+
+### Answer after D11
+
+Because F7 failed its original full adoption gate, and the user later chose to adopt only the narrower behavior that both readings demonstrated. They left the earlier semantic record in place and wrote the later understanding as a new record. They did not agree on the name for one relationship. This revision promotes that narrower principle into Constitution v0.4 and leaves the taxonomy unresolved. It does not rewrite F7 as a pass. It does not choose a store. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. It opens F7b. It does not leave a standing permission to edit again. After this record, Wait.
+
+AgentCal may revise its understanding, but it may not revise history to make itself look as though it always knew the answer.
+
+### Prior answer — historical-integrity trial
+
+The heading above the next paragraph was added with v8. The paragraph is the answer written when the trial was scored. Its sentences are not rewritten. Its heading then was “Answer after the historical-integrity trial.”
 
 Because a later true belief can still falsify the past if it is written over the earlier record. This revision asks whether a candidate rule can change the current view and leave the earlier sentence readable. It records that both readings could, including six months later, and that they did not agree on the name for an accurate unverified report. It does not propose v0.4. It does not install the rule. It does not choose a store. It does not build. It does not Commit. It does not resolve the original idea. It does not rewrite the public description. Joining the result to `main` keeps v6 and D9 as the inference trial and records this trial as v7 and D10. It does not leave a standing permission to edit again. After this record, Wait.
 
